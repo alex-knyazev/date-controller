@@ -44,4 +44,4 @@ const controller = new DateController(
   date1RightBorders
 );
 
-controller.changeDate('2018-12-10');
+controller.changeDate(DateTime.local());
